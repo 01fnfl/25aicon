@@ -10,7 +10,7 @@ void gotoxy(int x, int y) {
 
 int main() {
     int x = 1, y = 2;   // 사각형의 왼쪽 위 모서리 위치 (열, 행)
-    int w = 6, h = 5;   // 사각형의 너비와 높이
+    int w = 6, h = 5;    
 
     int row = 0;        // 현재 행 번호 초기화
     while (row < h) {   // 행이 사각형 높이보다 작으면 반복
