@@ -29,7 +29,7 @@ int main() {
 
     printf("\x1b[?25l");
 
-    // ÆøÅº Ãâ·Â
+    // ÆøÅº Ãâ·ÂÇÏ±â 
     moveCursor(bombPosX, bombPosY);
     printBomb(0);
     fflush(stdout);
